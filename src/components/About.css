@@ -16,7 +16,6 @@
 
 .text-container {
   width: 25%; 
-  text-align: justify;
 }
 
 .text-container h3 {
@@ -27,6 +26,7 @@
 
 .text-container p {
   line-height: 1.7;
+  text-align: justify;
   margin: 2rem 0;
 }
 

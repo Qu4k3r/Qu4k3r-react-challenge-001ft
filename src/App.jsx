@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import About from './components/About';
+import AppDescription from './components/AppDescription';
 import Header from './components/Header';
 import NewsLetter from './components/NewsLetter';
 
@@ -15,6 +16,7 @@ export default function App() {
       </section>
       <About />
       <NewsLetter />
+      <AppDescription />
     </main>
   );
 }

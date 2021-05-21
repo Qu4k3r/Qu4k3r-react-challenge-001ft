@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   background-color: rgb(223, 223, 223);
+  border-bottom: 2px solid rgb(197, 195, 195);
   align-items: center;
 }
 
