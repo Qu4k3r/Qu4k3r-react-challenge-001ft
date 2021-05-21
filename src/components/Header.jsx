@@ -1,9 +1,11 @@
 import React from 'react';
 import './Header.css';
+import Navbar from './Navbar';
 
 export default function Header() {
   return (
     <header>
+      <Navbar />
       <div className="header-container">
         <div className="title-container">
           <p className="main-title">Easily create or join a local nanny share with Hapu</p>
