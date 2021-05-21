@@ -8,7 +8,7 @@ export default function Header() {
       <Navbar />
       <div className="header-container">
         <div className="title-container">
-          <p className="main-title">Easily create or join a local nanny share with Hapu</p>
+          <h3 className="main-title">Easily create or join a local nanny share with Hapu</h3>
           <p className="subtitle">
             Hapu is Airbnb for nanny share.
             Share your home, nanny and costs and create new flexible,

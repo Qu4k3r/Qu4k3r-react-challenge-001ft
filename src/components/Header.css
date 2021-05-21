@@ -1,7 +1,6 @@
 header {
   background-image: url('../images/header-background.png'), linear-gradient(to top, #c86dd7, #bb66d3, #ae5ecf, #a058cc, #9251c8, #894ac4, #7f44c1, #753dbd, #6e34b9, #672ab5, #601fb0, #5912ac);
   height: 76vh;
-  width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -23,6 +22,7 @@ header {
 .main-title {
   font-size: 3rem;
   margin: 1rem 0;
+  font-weight: 500;
 }
 
 .subtitle {

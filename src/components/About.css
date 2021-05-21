@@ -1,0 +1,37 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(223, 223, 223);
+  border-bottom: 2px solid rgb(223, 223, 223);
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 5rem;
+}
+
+.text-container {
+  width: 25%; 
+  text-align: justify;
+}
+
+.text-container h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.text-container p {
+  line-height: 1.7;
+  margin: 2rem 0;
+}
+
+.text-container u {
+  text-decoration: underline;
+  color: rgb(94, 32, 164);
+  font-weight: 500;
+}
