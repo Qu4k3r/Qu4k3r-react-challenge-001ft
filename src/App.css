@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.nanny-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24vh;
+  background-color: rgb(223, 223, 223);
+  border: 1px solid black;
+}
+
+.nanny-container p {
+  margin-left: 1.5rem;
+  color: rgb(94, 32, 164);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nanny-container p:last-child {
+  color: black;
+  text-decoration: none;
+  margin-left: 0.3rem;
+}

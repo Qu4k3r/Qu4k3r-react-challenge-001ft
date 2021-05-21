@@ -20,7 +20,7 @@ export default function Header() {
           </div>
         </div>
         <div className="card-container">
-          <img src="/card.svg" alt="" />
+          <img src="/card.svg" alt="Nanny share card" />
         </div>
       </div>
     </header>
