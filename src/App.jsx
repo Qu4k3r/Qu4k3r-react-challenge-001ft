@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import About from './components/About';
 import Header from './components/Header';
+import NewsLetter from './components/NewsLetter';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <p>Wednesday, Thursday, Friday - 7:30 - 5:30</p>
       </section>
       <About />
+      <NewsLetter />
     </main>
   );
 }
