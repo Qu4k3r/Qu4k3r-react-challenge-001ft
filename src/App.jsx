@@ -1,22 +1,26 @@
 import React from 'react';
+// import About from './components/About';
+// import AppDescription from './components/AppDescription';
+// import NewsLetter from './components/NewsLetter';
+import Hero from './components/Hero';
+
+import './Global.css';
 import './App.css';
-import About from './components/About';
-import AppDescription from './components/AppDescription';
-import Header from './components/Header';
-import NewsLetter from './components/NewsLetter';
 
 export default function App() {
   return (
     <main>
-      <Header />
+      <Hero />
       <section className="nanny-container">
-        <img src="/profile-image.svg" alt="Nanny Sarah" />
-        <p>Sarah’s day care now available in North Sydney</p>
-        <p>Wednesday, Thursday, Friday - 7:30 - 5:30</p>
+        <img src="/profile-image.png" alt="Nanny Sarah" />
+        <div className="text-container">
+          <p>Sarah’s day care now available in North Sydney</p>
+          <p>Wednesday, Thursday, Friday - 7:30 - 5:30</p>
+        </div>
       </section>
-      <About />
+      {/* <About />
       <NewsLetter />
-      <AppDescription />
+      <AppDescription /> */}
     </main>
   );
 }

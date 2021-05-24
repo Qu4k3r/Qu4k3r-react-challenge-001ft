@@ -1,0 +1,36 @@
+
+
+@media screen and (max-width: 640px) {
+  .hero {
+    background-image: url('../images/hero-mobile.png'), linear-gradient(to top, #c86dd7, #bb66d3, #ae5ecf, #a058cc, #9251c8, #894ac4, #7f44c1, #753dbd, #6e34b9, #672ab5, #601fb0, #5912ac);
+    height: 84vh;
+    width: 100vw;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    margin: 2rem 0;
+  }
+
+  .card-container {
+    display: none;
+  }
+
+  .title-container {
+    margin: 2rem 0;
+  }
+
+  .player {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+  }
+
+  .player p {
+    margin: 2rem 0.5rem;
+    align-self: center;
+  }
+}

@@ -1,27 +1,25 @@
 import React from 'react';
 import './Header.css';
-import Navbar from './Navbar';
 
 export default function Header() {
   return (
-    <header>
-      <Navbar />
-      <div className="header-container">
-        <div className="title-container">
-          <h3 className="main-title">Easily create or join a local nanny share with Hapu</h3>
-          <p className="subtitle">
-            Hapu is Airbnb for nanny share.
-            Share your home, nanny and costs and create new flexible,
-            affordable solutions in childcare.
-          </p>
-          <div className="player">
-            <img src="/play-button.svg" alt="Play button" />
-            <p>See hapu in action (27 seconds)</p>
-          </div>
+    <header className="navbar">
+      <img src={`${process.env.PUBLIC_URL}/logo.svg`} alt="logo" />
+
+      <div className="nav-container">
+        <div className="navlinks">
+          <ul>
+            <li>Create Your Nanny Share</li>
+            <li>Browse Shares</li>
+            <li>Our Story</li>
+          </ul>
         </div>
-        <div className="card-container">
-          <img src="/card.svg" alt="Nanny share card" />
+
+        <div className="button-container">
+          <button type="button">Become a Nanny Share Host</button>
+          <button type="button">Sign in</button>
         </div>
+
       </div>
     </header>
   );
