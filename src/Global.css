@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
-h3 {
+h2 {
   font-weight: 500;
   font-size: 2rem;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 1rem 0;
 }
 
 p {
@@ -23,7 +30,19 @@ button {
   padding: 0.75rem 1.5rem;
   background-color: rgb(0, 200, 140);
   border: none;
-  border-radius: 0.4rem;
+  border-radius: 0.2rem;
   color: aliceblue;
   cursor: pointer;
+}
+
+.text-container {
+  text-align: center;
+  width: 85vw;
+}
+
+.border-page {
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 0.2rem;
+  width: 90%;
+  margin: 2rem auto;
 }

@@ -8,7 +8,7 @@ export default function Hero() {
       <Header />
       <div className="header-container">
         <div className="title-container">
-          <h3 className="main-title">Easily create or join a local nanny share with Hapu</h3>
+          <h2 className="main-title">Easily create or join a local nanny share with Hapu</h2>
           <p className="subtitle">
             Hapu is Airbnb for nanny share.
             Share your home, nanny and costs and create new flexible,

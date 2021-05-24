@@ -1,39 +1,27 @@
-.news-letter {
-  height: 45vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: rgb(223, 223, 223);
-  border-bottom: 2px solid rgb(197, 195, 195);
-  align-items: center;
-}
+@media screen and (max-width: 640px) {
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 249, 247);
+    align-items: center;
+  }
 
-.text-content {
-  text-align: center;
-}
+  .newsletter .text-container {
+    margin-top: 2rem;
+  }
 
-.text-content h3 {
-  font-weight: 500;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
+  .form-container input {
+    display: flex;
+    padding: 0.7rem;
+    margin: 0 0.5rem;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 0.2rem;
+    width: 90vw;
+    margin: 0.5rem;
+  }
 
-.text-content p {
-  font-size: 1.2rem;
-}
-
-.form-container input {
-  padding: 1rem;
-  margin: 0 0.5rem;
-  border: none;
-  outline: none;
-}
-
-.form-container button {
-  padding: 1rem 3rem;
-  background-color: rgb(0, 200, 140);
-  border: none;
-  border-radius: 0.4rem;
-  color: aliceblue;
-  cursor: pointer;
+  .newsletter button {
+    margin-bottom: 2rem;
+    width: 90vw;
+  }
 }

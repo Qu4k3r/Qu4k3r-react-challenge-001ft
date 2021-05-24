@@ -24,7 +24,7 @@ export default function About() {
         </div>
         <img src="/nanny-share-map.png" alt="connect with other parents to share your costs" />
       </div>
-      <div className="page-border" />
+      <div className="border-page" />
     </section>
   );
 }

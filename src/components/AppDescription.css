@@ -1,0 +1,18 @@
+@media screen and (max-width: 640px) {
+  .description-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(250, 249, 247);
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .description-container .text-container {
+    width: 86vw;
+  }
+
+  .description-container img {
+    display: none;
+  }
+}

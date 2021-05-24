@@ -4,8 +4,8 @@ import './NewsLetter.css';
 
 export default function NewsLetter() {
   return (
-    <section className="news-letter">
-      <div className="text-content">
+    <section className="newsletter">
+      <div className="text-container">
         <h3>Are you a parent without a nanny and looking to share?</h3>
         <p>
           Leave us your name and email and we’ll update you
@@ -13,30 +13,25 @@ export default function NewsLetter() {
         </p>
       </div>
 
-      <div className="form-container">
-        <label htmlFor="input-name">
-          <input
-            type="text"
-            id="name-input"
-            placeholder="Your name"
-          />
-        </label>
+      <form className="form-container">
+        <input
+          type="text"
+          id="name-input"
+          placeholder="Your name"
+        />
 
-        <label htmlFor="input-email">
-          <input
-            type="email"
-            id="email-input"
-            placeholder="Your email"
-          />
-        </label>
+        <input
+          type="email"
+          id="email-input"
+          placeholder="Your email"
+        />
+      </form>
 
-        <button type="button">
-          Send
-        </button>
-      </div>
+      <button type="button">
+        Send
+      </button>
 
-      <hr />
-      { /* outro componente */ }
+      <div className="border-page" />
     </section>
   );
 }

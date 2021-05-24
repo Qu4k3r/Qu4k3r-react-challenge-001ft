@@ -14,9 +14,9 @@ export default function AppDescription() {
           principles; clearly defined process, transparency over money
           and equality of participation.
         </p>
-        <u>Read how Hapu’s tribal background defines our app </u>
+        <p><u>Read how Hapu’s tribal background defines our app </u></p>
       </div>
-      <img src="/app-image.svg" alt="Handling your bills on our App" />
+      <img src="/app-image.png" alt="Handling your bills on our App" />
     </section>
   );
 }

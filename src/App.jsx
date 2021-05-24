@@ -1,7 +1,7 @@
 import React from 'react';
 import About from './components/About';
-// import AppDescription from './components/AppDescription';
-// import NewsLetter from './components/NewsLetter';
+import AppDescription from './components/AppDescription';
+import NewsLetter from './components/NewsLetter';
 import Hero from './components/Hero';
 
 import './Global.css';
@@ -19,8 +19,8 @@ export default function App() {
         </div>
       </section>
       <About />
-      {/* <NewsLetter /> */}
-      {/* <AppDescription /> */}
+      <NewsLetter />
+      <AppDescription />
     </main>
   );
 }
