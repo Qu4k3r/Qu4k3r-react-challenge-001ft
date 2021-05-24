@@ -3,8 +3,8 @@ import './About.css';
 
 export default function About() {
   return (
-    <section className="about">
-      <div className="about-container">
+    <section className="about-container">
+      <div className="about">
         <div className="text-container">
           <h3>Share your home, nanny and costs</h3>
           <p>
@@ -20,12 +20,11 @@ export default function About() {
             A tribe that together has the power to create new affordable solutions in childcare
             that work for you and your community.
           </p>
-          <u>Ready to get started?</u>
+          <p><u>Ready to get started?</u></p>
         </div>
-        <div className="img-container">
-          <img src="/nanny-share-image.svg" alt="connect with other parents to share your costs" />
-        </div>
+        <img src="/nanny-share-map.png" alt="connect with other parents to share your costs" />
       </div>
+      <div className="page-border" />
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-// import About from './components/About';
+import About from './components/About';
 // import AppDescription from './components/AppDescription';
 // import NewsLetter from './components/NewsLetter';
 import Hero from './components/Hero';
@@ -18,9 +18,9 @@ export default function App() {
           <p>Wednesday, Thursday, Friday - 7:30 - 5:30</p>
         </div>
       </section>
-      {/* <About />
-      <NewsLetter />
-      <AppDescription /> */}
+      <About />
+      {/* <NewsLetter /> */}
+      {/* <AppDescription /> */}
     </main>
   );
 }
