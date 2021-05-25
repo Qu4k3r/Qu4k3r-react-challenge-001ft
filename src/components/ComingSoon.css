@@ -1,5 +1,5 @@
 @media screen and (max-width: 640px) {
-  .payment-container {
+  .coming-soon-container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -8,12 +8,12 @@
     text-align: center;
   }
 
-  .payment-container .text-container {
+  .coming-soon-container .text-container {
     width: 84vw;
+    margin-bottom: 2rem;
   }
 
-  .payment-container img {
+  .coming-soon-container img {
     margin: 2rem 0;
-    width: 80vw;
   }
 }

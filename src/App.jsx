@@ -6,6 +6,9 @@ import Hero from './components/Hero';
 
 import './Global.css';
 import './App.css';
+import SharePayment from './components/SharePayment';
+import ComingSoon from './components/ComingSoon';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -20,7 +23,10 @@ export default function App() {
       </section>
       <About />
       <NewsLetter />
+      <SharePayment />
       <AppDescription />
+      <ComingSoon />
+      <Footer />
     </main>
   );
 }

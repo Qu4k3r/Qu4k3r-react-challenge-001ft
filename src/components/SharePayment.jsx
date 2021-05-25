@@ -5,22 +5,7 @@ import './SharePayment.css';
 export default function SharePayment() {
   return (
     <section className="payment-container">
-      <div className="payment">
-        <div className="option-1">
-          <label htmlFor="radio-1">
-            <input type="radio" name="payment-option" />
-          </label>
-          <label htmlFor="value-input">
-            <input type="number" />
-          </label>
-        </div>
-
-        <div className="option-2">
-          <label htmlFor="radio-2">
-            <input type="radio" name="payment-option" />
-          </label>
-        </div>
-      </div>
+      <img src="/app-usage-example.png" alt="how application works" />
 
       <div className="text-container">
         <h3>Shared payments made simple</h3>
@@ -31,8 +16,9 @@ export default function SharePayment() {
           automated payment system takes care of the rest. You need never talk
           money or who owes what.
         </p>
-        <u>Ready to get started?</u>
+        <p><u>Read how Bridget’s share (without Hapu) ended over $15</u></p>
       </div>
+      <div className="border-page" />
     </section>
   );
 }
