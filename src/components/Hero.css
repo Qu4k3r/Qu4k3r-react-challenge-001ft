@@ -23,17 +23,17 @@
   }
 
   .main-title {
-    margin: 2rem 0;
+    margin: 2rem auto;
   }
 
   .player {
     display: flex;
-    justify-content: center;
-    margin: 4rem 0;
+    justify-content: flex-start;
+    margin: 4rem auto;
   }
 
   .player p {
-    margin: 2rem 0.5rem;
+    margin: 0 7px;
     align-self: center;
   }
 }
@@ -59,20 +59,20 @@
 
   .title-container {
     margin: 2rem auto;
-    width: 85vw;
+    width: 80vw;
   }
 
   .main-title {
-    margin: 2rem 0;
+    margin: 2rem auto;
   }
 
   .player {
     display: flex;
-    margin: 4rem 0;
+    margin: 4rem auto;
   }
 
   .player p {
-    margin: 2rem 0.5rem;
+    margin: 0 7px;
     align-self: center;
   }
 }
