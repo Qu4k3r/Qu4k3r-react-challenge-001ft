@@ -1,19 +1,32 @@
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.navbar img {
-  height: 10vh;
-}
-
 @media screen and (max-width: 640px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
   .navlinks {
     display: none;
   }
 
   .button-container button:last-child {
     display: none;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 930px) {
+  .navlinks {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+  }
+
+  .button-container button:last-child {
+    background-color: transparent;
   }
 }

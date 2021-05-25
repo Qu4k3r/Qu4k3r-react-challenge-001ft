@@ -18,7 +18,8 @@
   }
 
   .title-container {
-    margin: 2rem 0;
+    margin: 2rem auto;
+    width: 85vw;
   }
 
   .main-title {
@@ -28,6 +29,45 @@
   .player {
     display: flex;
     justify-content: center;
+    margin: 4rem 0;
+  }
+
+  .player p {
+    margin: 2rem 0.5rem;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 930px) {
+  .hero {
+    background-image: url('../images/hero-desktop.png'), linear-gradient(to top, #c86dd7, #bb66d3, #ae5ecf, #a058cc, #9251c8, #894ac4, #7f44c1, #753dbd, #6e34b9, #672ab5, #601fb0, #5912ac);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: start;
+    width: 100%;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+  }
+
+  .card-container {
+    display: none;
+  }
+
+  .title-container {
+    margin: 2rem auto;
+    width: 85vw;
+  }
+
+  .main-title {
+    margin: 2rem 0;
+  }
+
+  .player {
+    display: flex;
     margin: 4rem 0;
   }
 

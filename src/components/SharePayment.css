@@ -17,3 +17,23 @@
     width: 80vw;
   }
 }
+
+@media screen and (min-width: 641px) and (max-width: 930px) {
+  .payment-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(250, 249, 247);
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .payment-container .text-container {
+    width: 84vw;
+  }
+
+  .payment-container img {
+    margin: 2rem 0;
+    width: 65vw;
+  }
+}
