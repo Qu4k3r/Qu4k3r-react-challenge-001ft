@@ -77,7 +77,7 @@
   }
 }
 
-@media screen and (min-width: 931px) and (max-width: 1440px) {
+@media screen and (min-width: 931px) and (max-width: 1920px) {
   .hero {
     background-image: url('../images/hero-desktop.png'), linear-gradient(to top, #c86dd7, #bb66d3, #ae5ecf, #a058cc, #9251c8, #894ac4, #7f44c1, #753dbd, #6e34b9, #672ab5, #601fb0, #5912ac);
     background-size: cover;
@@ -130,7 +130,7 @@
   }
 }
 
-.hero {
+/* .hero {
   background-image: url('../images/hero-desktop.png'), linear-gradient(to top, #c86dd7, #bb66d3, #ae5ecf, #a058cc, #9251c8, #894ac4, #7f44c1, #753dbd, #6e34b9, #672ab5, #601fb0, #5912ac);
   background-size: cover;
   background-position: center center;
@@ -179,4 +179,4 @@
 
 .card-container {
   width: 25vw;
-}
+} */

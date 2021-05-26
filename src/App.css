@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (min-width: 931px) and (max-width: 1440px) {
+@media screen and (min-width: 931px) and (max-width: 1920px) {
   main {
     background-color: rgb(250, 249, 247);
   }
@@ -64,7 +64,7 @@
   }
 }
 
-main {
+/* main {
   background-color: rgb(250, 249, 247);
 }
 
@@ -93,4 +93,4 @@ main {
   align-items: center;
   justify-content: flex-start;
   width: auto;
-}
+} */

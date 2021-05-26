@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (min-width: 931px) and (max-width: 1440px) {
+@media screen and (min-width: 931px) and (max-width: 1920px) {
   .coming-soon-container {
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@
   }
 }
 
-.coming-soon-container {
+/* .coming-soon-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,4 +60,4 @@
 
 .coming-soon-container .text-container p {
   text-align: center;
-}
+} */

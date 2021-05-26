@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (min-width: 931px) and (max-width: 1440px) {
+@media screen and (min-width: 931px) and (max-width: 1920px) {
   .about-container {
     flex-wrap: wrap;
   }
@@ -70,7 +70,7 @@
   flex-wrap: wrap;
 }
 
-.about {
+/* .about {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -97,4 +97,4 @@
 
 .about-container .border-page {
   margin: 0 auto;
-}
+} */
