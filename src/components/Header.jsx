@@ -19,7 +19,6 @@ export default function Header() {
           <button type="button">Become a Nanny Share Host</button>
           <button type="button">Sign in</button>
         </div>
-
       </div>
     </header>
   );

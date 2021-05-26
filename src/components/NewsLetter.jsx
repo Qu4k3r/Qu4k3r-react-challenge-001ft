@@ -13,24 +13,25 @@ export default function NewsLetter() {
         </p>
       </div>
 
-      <form className="form-container">
-        <input
-          type="text"
-          id="name-input"
-          placeholder="Your name"
-        />
+      <div className="form-container">
+        <form className="form">
+          <input
+            type="text"
+            id="name-input"
+            placeholder="Your name"
+          />
 
-        <input
-          type="email"
-          id="email-input"
-          placeholder="Your email"
-        />
-      </form>
+          <input
+            type="email"
+            id="email-input"
+            placeholder="Your email"
+          />
+        </form>
 
-      <button type="button">
-        Send
-      </button>
-
+        <button type="button">
+          Send
+        </button>
+      </div>
       <div className="border-page" />
     </section>
   );

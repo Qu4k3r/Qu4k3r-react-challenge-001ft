@@ -1,3 +1,104 @@
+@media screen and (max-width: 930px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h2 {
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  u {
+    text-decoration: underline;
+    color: rgb(94, 32, 164);
+    font-weight: 500;
+  }
+
+  button {
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(0, 200, 140);
+    border: none;
+    border-radius: 0.2rem;
+    color: aliceblue;
+  }
+
+  .text-container {
+    text-align: center;
+    width: 85vw;
+  }
+
+  .border-page {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 0.2rem;
+    width: 90%;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (min-width: 931px) and (max-width: 1440px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin: 1rem auto;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin: 1rem auto;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  u {
+    text-decoration: underline;
+    color: rgb(94, 32, 164);
+    font-weight: 500;
+  }
+
+  button {
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(0, 200, 140);
+    border: none;
+    border-radius: 0.2rem;
+    color: aliceblue;
+    cursor: pointer;
+  }
+
+  .text-container {
+    text-align: center;
+  }
+
+  .border-page {
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 0.2rem;
+    width: 55%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,18 +108,18 @@
 
 h2 {
   font-weight: 500;
-  font-size: 2rem;
-  margin: 1rem 0;
+  font-size: 2.5rem;
+  margin: 1rem auto;
 }
 
 h3 {
   font-weight: 500;
-  font-size: 1.5rem;
-  margin: 1rem 0;
+  font-size: 1.75rem;
+  margin: 1rem auto;
 }
 
 p {
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 u {
@@ -38,12 +139,10 @@ button {
 
 .text-container {
   text-align: center;
-  width: 85vw;
 }
 
 .border-page {
   border: 1px solid rgb(223, 223, 223);
   border-radius: 0.2rem;
-  width: 90%;
-  margin: 2rem auto;
+  width: 55%;
 }
