@@ -53,37 +53,3 @@
     margin: 6rem auto 0 auto;
   }
 }
-
-/* .description-container {
-  flex-wrap: wrap;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.description {
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  margin: 4rem auto;
-  width: 75vw;
-}
-
-.description .text-container {
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-}
-
-.description .text-container p {
-  text-align: center;
-}
-
-.description-container img {
-  width: 69%;
-}
-
-.description-container .border-page {
-  margin: 6rem auto 0 auto;
-} */

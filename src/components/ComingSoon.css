@@ -40,24 +40,3 @@
     text-align: center;
   }
 }
-
-/* .coming-soon-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  margin: 4rem auto 2rem auto;
-}
-
-.coming-soon-container .text-container {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 55%;
-  margin: 2rem auto 0 auto;
-}
-
-.coming-soon-container .text-container p {
-  text-align: center;
-} */

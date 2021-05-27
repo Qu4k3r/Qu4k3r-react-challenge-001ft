@@ -70,35 +70,3 @@
     opacity: 0.9;
   }
 }
-
-/* .navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 2rem;
-  color: aliceblue;
-}
-
-.nav-container {
-  display: flex;
-  align-items: center;
-  flex: 1;
-}
-
-.navlinks {
-  flex: 1;
-}
-
-.navlinks ul {
-  list-style-type: none;
-  display: flex;
-  margin: auto 2rem;
-}
-
-.navlinks li {
-  margin: 0 1rem;
-}
-
-.button-container button:last-child {
-  background-color: transparent;
-} */
