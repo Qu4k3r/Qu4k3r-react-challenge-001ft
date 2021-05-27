@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (min-width: 931px) and (max-width: 1920px) {
+@media screen and (min-width: 931px) {
   .description-container {
     flex-wrap: wrap;
     display: flex;
@@ -31,6 +31,7 @@
     display: flex;
     justify-content: space-around;
     margin: 4rem auto;
+    max-width: 1920px;
     width: 75vw;
   }
 
@@ -51,5 +52,6 @@
 
   .description-container .border-page {
     margin: 6rem auto 0 auto;
+    max-width: 1920px;
   }
 }

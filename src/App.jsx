@@ -1,14 +1,15 @@
 import React from 'react';
+
 import About from './components/About';
 import AppDescription from './components/AppDescription';
 import NewsLetter from './components/NewsLetter';
 import Hero from './components/Hero';
-
-import './Global.css';
-import './App.css';
 import SharePayment from './components/SharePayment';
 import ComingSoon from './components/ComingSoon';
 import Footer from './components/Footer';
+
+import './Global.css';
+import './App.css';
 
 export default function App() {
   return (

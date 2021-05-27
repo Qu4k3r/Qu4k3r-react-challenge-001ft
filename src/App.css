@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (min-width: 931px) and (max-width: 1920px) {
+@media screen and (min-width: 931px) {
   main {
     background-color: rgb(250, 249, 247);
   }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Hero.css';
-import Header from './Header';
+import Header from '../Header';
 
 export default function Hero() {
   const [ABTest, setABTest] = useState(localStorage.getItem('A/B Test') || '');

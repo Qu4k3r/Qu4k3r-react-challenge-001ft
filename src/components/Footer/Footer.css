@@ -69,7 +69,7 @@
   }
 }
 
-@media screen and (min-width: 931px) and (max-width: 1920px) {
+@media screen and (min-width: 931px) {
   .footer-container {
     display: flex;
     align-items: center;
@@ -114,6 +114,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    max-width: 1920px;
   }
 
   .footer-navbar .navbar {

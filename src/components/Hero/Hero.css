@@ -1,6 +1,6 @@
 @media screen and (max-width: 640px) {
   .hero {
-    background: url('../images/hero-mobile.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    background: url('../../images/hero-mobile.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
     background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 641px) and (max-width: 930px) {
   .hero {
-    background: url('../images/hero-desktop.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    background: url('../../images/hero-desktop.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
     background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
@@ -84,9 +84,9 @@
   }
 }
 
-@media screen and (min-width: 931px) and (max-width: 1920px) {
+@media screen and (min-width: 931px) {
   .hero {
-    background: url('../images/hero-desktop.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    background: url('../../images/hero-desktop.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center center;
@@ -102,6 +102,7 @@
     justify-content: space-around;
     align-items: center;
     margin: 4rem auto;
+    max-width: 1920px;
   }
 
   .title-container {
