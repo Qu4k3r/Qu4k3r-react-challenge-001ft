@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Qu4k3r-react-challenge-001ft/static/css/main.5e6c6398.chunk.css",
-    "main.js": "/Qu4k3r-react-challenge-001ft/static/js/main.3daea476.chunk.js",
-    "main.js.map": "/Qu4k3r-react-challenge-001ft/static/js/main.3daea476.chunk.js.map",
+    "main.css": "/Qu4k3r-react-challenge-001ft/static/css/main.f3f829f1.chunk.css",
+    "main.js": "/Qu4k3r-react-challenge-001ft/static/js/main.d5ccb603.chunk.js",
+    "main.js.map": "/Qu4k3r-react-challenge-001ft/static/js/main.d5ccb603.chunk.js.map",
     "runtime-main.js": "/Qu4k3r-react-challenge-001ft/static/js/runtime-main.6061f2e2.js",
     "runtime-main.js.map": "/Qu4k3r-react-challenge-001ft/static/js/runtime-main.6061f2e2.js.map",
     "static/js/2.be9cee88.chunk.js": "/Qu4k3r-react-challenge-001ft/static/js/2.be9cee88.chunk.js",
     "static/js/2.be9cee88.chunk.js.map": "/Qu4k3r-react-challenge-001ft/static/js/2.be9cee88.chunk.js.map",
     "index.html": "/Qu4k3r-react-challenge-001ft/index.html",
-    "static/css/main.5e6c6398.chunk.css.map": "/Qu4k3r-react-challenge-001ft/static/css/main.5e6c6398.chunk.css.map",
+    "static/css/main.f3f829f1.chunk.css.map": "/Qu4k3r-react-challenge-001ft/static/css/main.f3f829f1.chunk.css.map",
     "static/js/2.be9cee88.chunk.js.LICENSE.txt": "/Qu4k3r-react-challenge-001ft/static/js/2.be9cee88.chunk.js.LICENSE.txt",
     "static/media/Hero.css": "/Qu4k3r-react-challenge-001ft/static/media/hero-mobile.38dd636c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6061f2e2.js",
     "static/js/2.be9cee88.chunk.js",
-    "static/css/main.5e6c6398.chunk.css",
-    "static/js/main.3daea476.chunk.js"
+    "static/css/main.f3f829f1.chunk.css",
+    "static/js/main.d5ccb603.chunk.js"
   ]
 }
