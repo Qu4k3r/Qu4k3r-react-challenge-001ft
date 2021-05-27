@@ -20,8 +20,8 @@ export default function Footer() {
         <p><u>Or browse local nanny-shares</u></p>
       </div>
       <section className="footer-navbar">
-        <img src={`${process.env.PUBLIC_URL}/hapu-logo.svg`} alt="hapu logo" />
-        <nav className="navbar">
+        <img className="item" src={`${process.env.PUBLIC_URL}/hapu-logo.svg`} alt="hapu logo" />
+        <nav className="navbar item">
           <ul>
             <li>Share Your Nanny</li>
             <li>Our Story</li>
@@ -29,7 +29,7 @@ export default function Footer() {
             <li>Terms & Privacy</li>
           </ul>
         </nav>
-        <div className="contact">
+        <div className="contact item">
           <img src={`${process.env.PUBLIC_URL}/facebook-logo.svg`} alt="facebook logo" />
           <img src={`${process.env.PUBLIC_URL}/twitter-logo.svg`} alt="twitter logo" />
           <img src={`${process.env.PUBLIC_URL}/instagram-logo.svg`} alt="instagram logo" />

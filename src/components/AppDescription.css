@@ -45,7 +45,7 @@
   }
 
   .description-container img {
-    width: 984px;
+    max-width: 100%;
     height: 392px;
   }
 

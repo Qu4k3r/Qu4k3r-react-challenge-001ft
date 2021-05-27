@@ -1,6 +1,7 @@
 @media screen and (max-width: 640px) {
   .hero {
-    background-image: url('../images/hero-mobile.png'), linear-gradient(to top, #c86dd7, #bb66d3, #ae5ecf, #a058cc, #9251c8, #894ac4, #7f44c1, #753dbd, #6e34b9, #672ab5, #601fb0, #5912ac);
+    background: url('../images/hero-mobile.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -40,7 +41,8 @@
 
 @media screen and (min-width: 641px) and (max-width: 930px) {
   .hero {
-    background-image: url('../images/hero-desktop.png'), linear-gradient(to top, #c86dd7, #bb66d3, #ae5ecf, #a058cc, #9251c8, #894ac4, #7f44c1, #753dbd, #6e34b9, #672ab5, #601fb0, #5912ac);
+    background: url('../images/hero-desktop.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: start;
@@ -75,11 +77,17 @@
     margin: 0 7px;
     align-self: center;
   }
+
+  .player p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 931px) and (max-width: 1920px) {
   .hero {
-    background-image: url('../images/hero-desktop.png'), linear-gradient(to top, #c86dd7, #bb66d3, #ae5ecf, #a058cc, #9251c8, #894ac4, #7f44c1, #753dbd, #6e34b9, #672ab5, #601fb0, #5912ac);
+    background: url('../images/hero-desktop.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    background-blend-mode: overlay;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -125,8 +133,9 @@
     align-self: center;
   }
 
-  .card-container {
-    width: 25vw;
+  .player p:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }
 }
 

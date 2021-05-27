@@ -22,7 +22,7 @@ export default function About() {
           </p>
           <p><u>Ready to get started?</u></p>
         </div>
-        <img src="/nanny-share-map.png" alt="connect with other parents to share your costs" />
+        <img src={`${process.env.PUBLIC_URL}/nanny-share-map.png`} alt="connect with other parents to share your costs" />
       </div>
       <div className="border-page" />
     </section>

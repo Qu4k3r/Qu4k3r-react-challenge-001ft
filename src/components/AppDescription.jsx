@@ -18,7 +18,7 @@ export default function AppDescription() {
           <p><u>Read how Hapu’s tribal background defines our app </u></p>
         </div>
       </div>
-      <img src="/app-image.png" alt="Handling bills using Hapu App" />
+      <img src={`${process.env.PUBLIC_URL}/app-image.png`} alt="Handling bills using Hapu App" />
       <div className="border-page" />
     </section>
   );

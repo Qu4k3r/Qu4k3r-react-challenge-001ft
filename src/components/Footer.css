@@ -111,14 +111,14 @@
   .footer-navbar {
     margin: 2rem auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 100%;
   }
 
-  /* .footer-navbar .navbar {
-    margin: 1rem 0;
-  } */
+  .footer-navbar .navbar {
+    justify-content: center;
+  }
 
   .footer-navbar .navbar ul {
     list-style-type: none;
@@ -135,6 +135,15 @@
 
   .footer-container .border-page, .copyright {
     display: none;
+  }
+
+  .item {
+    flex-grow: 1;
+    flex-basis: 0.3rem;
+  }
+
+  .item:first-child {
+    height: 24px;
   }
 }
 

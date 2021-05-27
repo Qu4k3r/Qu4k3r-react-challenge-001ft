@@ -53,6 +53,7 @@
     text-decoration: underline;
     color: rgb(94, 32, 164);
     font-weight: 500;
+    cursor: pointer;
     margin: auto 0.3rem auto 1rem;
   }
 

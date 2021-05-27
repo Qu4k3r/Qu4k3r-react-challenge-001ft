@@ -47,6 +47,11 @@
     width: 90%;
     margin: 2rem auto;
   }
+
+  .newsletter-message {
+    color: red;
+    font-size: 0.75rem;
+  }
 }
 
 @media screen and (min-width: 931px) and (max-width: 1920px) {
@@ -77,6 +82,12 @@
     text-decoration: underline;
     color: rgb(94, 32, 164);
     font-weight: 500;
+    cursor: pointer;
+  }
+
+  li:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }
 
   button {
@@ -85,7 +96,17 @@
     border: none;
     border-radius: 0.2rem;
     color: aliceblue;
+    transition: 0.2s;
     cursor: pointer;
+  }
+
+  button:hover:nth-child(1) {
+    box-shadow: inset 0 0 5em rgb(0, 221, 155);
+  }
+
+  button:hover:nth-child(3) {
+    box-shadow: 0 0 0.1em rgb(101, 8, 207);
+    background-color: rgb(101, 8, 207);
   }
 
   .text-container {
@@ -96,5 +117,30 @@
     border: 1px solid rgb(223, 223, 223);
     border-radius: 0.2rem;
     width: 55%;
+  }
+
+  .newsletter-message {
+    width: 570px;
+    color: red;
+    font-size: 0.75rem;
+    margin-top: 0.75rem;
+  }
+
+  .contact img:hover:nth-child(1) {
+    background-color: rgba(26, 182, 255, 0.295);
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .contact img:hover:nth-child(2) {
+    background-color: rgba(26, 118, 255, 0.527);
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .contact img:hover:nth-child(3) {
+    background-color: rgba(150, 23, 175, 0.199);
+    border-radius: 100%;
+    cursor: pointer;
   }
 }

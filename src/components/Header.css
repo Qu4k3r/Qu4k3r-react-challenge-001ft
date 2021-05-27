@@ -53,7 +53,8 @@
   .navlinks ul {
     list-style-type: none;
     display: flex;
-    margin: auto 2rem;
+    flex-wrap: wrap;
+    /* margin: auto 2rem; */
   }
 
   .navlinks li {
@@ -62,6 +63,11 @@
 
   .button-container button:last-child {
     background-color: transparent;
+  }
+
+  .button-container button:hover:last-child {
+    text-decoration: underline;
+    opacity: 0.9;
   }
 }
 

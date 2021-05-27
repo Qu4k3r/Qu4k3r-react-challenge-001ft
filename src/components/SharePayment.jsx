@@ -6,7 +6,7 @@ export default function SharePayment() {
   return (
     <section className="payment-container">
       <div className="payment">
-        <img src="/app-usage-example.png" alt="how application works" />
+        <img src={`${process.env.PUBLIC_URL}/app-usage-example.png`} alt="how application works" />
 
         <div className="text-container">
           <h3>Shared payments made simple</h3>
