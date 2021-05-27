@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-challenge-001ft/static/css/main.d4442fcd.chunk.css",
-    "main.js": "/react-challenge-001ft/static/js/main.e0f94f42.chunk.js",
-    "main.js.map": "/react-challenge-001ft/static/js/main.e0f94f42.chunk.js.map",
-    "runtime-main.js": "/react-challenge-001ft/static/js/runtime-main.1e4d2388.js",
-    "runtime-main.js.map": "/react-challenge-001ft/static/js/runtime-main.1e4d2388.js.map",
-    "static/js/2.be9cee88.chunk.js": "/react-challenge-001ft/static/js/2.be9cee88.chunk.js",
-    "static/js/2.be9cee88.chunk.js.map": "/react-challenge-001ft/static/js/2.be9cee88.chunk.js.map",
-    "index.html": "/react-challenge-001ft/index.html",
-    "static/css/main.d4442fcd.chunk.css.map": "/react-challenge-001ft/static/css/main.d4442fcd.chunk.css.map",
-    "static/js/2.be9cee88.chunk.js.LICENSE.txt": "/react-challenge-001ft/static/js/2.be9cee88.chunk.js.LICENSE.txt",
-    "static/media/Hero.css": "/react-challenge-001ft/static/media/hero-mobile.38dd636c.png"
+    "main.css": "/Qu4k3r-react-challenge-001ft/static/css/main.5e6c6398.chunk.css",
+    "main.js": "/Qu4k3r-react-challenge-001ft/static/js/main.3daea476.chunk.js",
+    "main.js.map": "/Qu4k3r-react-challenge-001ft/static/js/main.3daea476.chunk.js.map",
+    "runtime-main.js": "/Qu4k3r-react-challenge-001ft/static/js/runtime-main.6061f2e2.js",
+    "runtime-main.js.map": "/Qu4k3r-react-challenge-001ft/static/js/runtime-main.6061f2e2.js.map",
+    "static/js/2.be9cee88.chunk.js": "/Qu4k3r-react-challenge-001ft/static/js/2.be9cee88.chunk.js",
+    "static/js/2.be9cee88.chunk.js.map": "/Qu4k3r-react-challenge-001ft/static/js/2.be9cee88.chunk.js.map",
+    "index.html": "/Qu4k3r-react-challenge-001ft/index.html",
+    "static/css/main.5e6c6398.chunk.css.map": "/Qu4k3r-react-challenge-001ft/static/css/main.5e6c6398.chunk.css.map",
+    "static/js/2.be9cee88.chunk.js.LICENSE.txt": "/Qu4k3r-react-challenge-001ft/static/js/2.be9cee88.chunk.js.LICENSE.txt",
+    "static/media/Hero.css": "/Qu4k3r-react-challenge-001ft/static/media/hero-mobile.38dd636c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e4d2388.js",
+    "static/js/runtime-main.6061f2e2.js",
     "static/js/2.be9cee88.chunk.js",
-    "static/css/main.d4442fcd.chunk.css",
-    "static/js/main.e0f94f42.chunk.js"
+    "static/css/main.5e6c6398.chunk.css",
+    "static/js/main.3daea476.chunk.js"
   ]
 }
