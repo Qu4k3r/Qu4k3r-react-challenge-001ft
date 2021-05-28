@@ -1,54 +1,21 @@
 # React challenge repository
 
-Here you will find a simple landing page developed to offer shared babysitting services and more.
+Here you'll find a simple static landing page developed to offer shared babysitting services and more.
 
 ## How to run the application in development mode
 
-1. Clone this repository in your local machine:
-	```sh
-	git clone git@github.com:Qu4k3r/Qu4k3r-react-challenge-001ft.git
-	```
+1. Install `yarn` in your local machine, check its [documentation](https://classic.yarnpkg.com/en/docs/install) for a properly installation.
 
-	or, if you don't have a stored SSH key:
-	```sh
-	git clone https://github.com/Qu4k3r/Qu4k3r-react-challenge-001ft.git
-	```
+2. Clone this repository in your local machine, and enter the project directory.
 
-	- Now, enter the project directory:
-	```sh
-	cd Qu4k3r-react-challenge-001ft
-	```
-
-2. Get the latest npm version before installing dependencies:
-
-	_Chose `npm` or `yarn`_:
-
-	- npm:
-		```sh
-		npm install npm@latest -g
-		```
-
-	- yarn:
-		```sh
-		yarn set version latest
-		```
-
-1. Installing dependencies and running application in development mode:
+3. Installing dependencies and running application in development mode:
 
 	- Installing dependencies:
-		```sh
-		npm install
-		```
-
 		```sh
 		yarn
 		```
 
 	- Running application:
-		```sh
-		npm start
-		```
-
 		```sh
 		yarn start
 		```
@@ -57,37 +24,11 @@ Here you will find a simple landing page developed to offer shared babysitting s
 
 ## How to build the application
 
-By the time you installed the dependencies, the application was ready to be built, so all you have to do is run one of the following commands:
-
-```sh
-npm run build
-```
+By the time you installed the dependencies, the application was ready to be built, so all you have to do is run the following command:
 
 ```sh
 yarn build
 ```
-
-And finally:
-
-```sh
-npm run deploy
-```
-
-```sh
-yarn run deploy
-```
-
->Note: if you are using yarn, you'll probably have to modify the `package.json` file. But no worries, is actually simple! Take the next step if this is your case.
-
-### **For `yarn` users:**
-
-1. Open the `package.json` locatd in the project's root directory;
-2. Look for the object key `scripts`;
-3. There's another key in there called `predeploy`, change its value for `"yarn build"` and ... that's it! You're ready to go! If you're not sure how to proceed, here, take a look at this picture, it will help you out:
-
-	![changing-npm-to-yarn-buld](src/images/npm-to-yarn-example.png)
-
-1. Run the latest two commands in order to deploy the application properly.
 
 ---
 ## Last considerations
