@@ -35,7 +35,7 @@ yarn build
 
 I'd like to thank all people from Jungle Devs company for this amazing opportunity!
 
-Even I can't get the job position as a Front End developer, for me was such a great challenge be part of this selective process because there were so many things that I thought I wouldn't be able to get them done, but I put a lot of effort on myself like I never did before.
+Even I can't get the job position as a Front End developer, for me was such a great challenge to be part of this selective process because there were so many things that I thought I wouldn't be able to get them done, but I put a lot of effort on myself like I never did before.
 
 Besides that I'd like to apologize if the design is not good enough or if there's some other feature that was supposed to be here and it's not. I know that's not perfect at all and there is so much to be improved, done and implemented.
 
